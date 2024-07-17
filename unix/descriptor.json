@@ -1,0 +1,35 @@
+{
+    "name": "unix",
+    "type": "flogo:function",
+    "ref": "github.com/pmhofman-se/flogo-timestamp-functions/unix",
+    "version": "0.0.1",
+    "title": "Unix UTC timestamp functions",
+    "description": "misc utils",
+    "homepage": "https://github.com/pmhofman-se/flogo-timestamp-functions",
+    "functions": [
+      {
+        "name": "timestamp",
+        "description": "unix UTC timestamp in seconds",
+        "args": [],
+        "return": {
+          "type": "int64"
+        }
+      },
+      {
+        "name": "timestampMilli",
+        "description": "unix UTC timestamp in milliseconds",
+        "args": [],
+        "return": {
+          "type": "int64"
+        }
+      },
+      {
+        "name": "timestampMicro",
+        "description": "unix UTC timestamp in microseconds",
+        "args": [],
+        "return": {
+          "type": "int64"
+        }
+      }
+    ]
+  }
